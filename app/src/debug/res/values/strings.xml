@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PSB Map Note</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="description_map_image">Map image</string>
+    <string name="description_list_image">List Image</string>
+</resources>

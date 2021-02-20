@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "PSB_MAP_NOTE"

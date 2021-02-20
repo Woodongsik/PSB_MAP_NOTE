@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/memo_check_top_banner2"
+        android:contentDescription="@string/description_edit_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/map_icon"
+            android:contentDescription="@string/description_gps_image5"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/GPS_Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_gps_location_txt1"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/MemoTextViewGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:textColor="#3A3A3A"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="19dp" />
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/calendar_icon"
+            android:contentDescription="@string/description_calendar_image2"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_date_time6"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/MemoTextViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="20dp"
+        android:background="#EAEAEA"
+        android:text="@string/description_text_date_input"
+        android:textColor="#000000"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/title_icon"
+            android:contentDescription="@string/description_title_image3"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/labelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_title_input3"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/MemoTitleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="20dp"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="@string/description_input_title6"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:autofillHints=""
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/note_icon"
+            android:contentDescription="@string/description_memo_image2"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/labelMemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_memo_text"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/MemoContentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="#EAEAEA"
+        android:gravity="top"
+        android:hint="@string/description_input_memo5"
+        android:inputType="text"
+        android:shadowColor="#635252"
+        android:textColor="#333333"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDeleteMemoCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:onClick="onMemoCheckDeleteButtonClicked"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/buttonEditMemoCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:onClick="onMemoCheckEditButtonClicked"
+            android:text="Edit" />
+
+
+        <Button
+            android:id="@+id/buttonCancelMemoCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onMemoCheckCancelButtonClicked"
+            android:text="Cancel" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ads_banner2"
+        android:contentDescription="@string/description_image_ad_banner"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" />
+
+
+</LinearLayout>

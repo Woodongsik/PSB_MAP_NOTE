@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MemoInputActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/new_map_top_bar"
+        android:contentDescription="@string/description_top_banner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:contentDescription="description_layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/map_icon"
+            android:contentDescription="@string/description_gps_image"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/GPS_Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_gps_location2"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/MemoTextViewGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:textColor="#3A3A3A"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="19dp" />
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/calendar_icon"
+            android:contentDescription="@string/description_calendar_image"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_date_time"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/MemoTextViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="20dp"
+        android:background="#EAEAEA"
+        android:text="@string/description_memo_textView"
+        android:textColor="#000000"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/title_icon"
+            android:contentDescription="@string/description_title_image6"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/labelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_title_text"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/MemoTitleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="@string/description_input_title"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/note_icon"
+            android:contentDescription="@string/description_memo_image3"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/labelMemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_memo_input2"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/MemoContentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="#EAEAEA"
+        android:gravity="top"
+        android:hint="@string/description_input_memo1"
+        android:inputType="text"
+        android:shadowColor="#635252"
+        android:textColor="#333333"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDeleteMemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:onClick="onSaveButtonClicked"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/buttonCancelMemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:onClick="onCancelButtonClicked"
+            android:text="Cancel" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ads_banner"
+        android:contentDescription="@string/description_banner_image2" />
+</LinearLayout>

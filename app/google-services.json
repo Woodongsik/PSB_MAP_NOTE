@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "219498622142",
+    "project_id": "psbnotemap",
+    "storage_bucket": "psbnotemap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219498622142:android:ef4acabeffca4e46d102ef",
+        "android_client_info": {
+          "package_name": "com.woodongsik.psb_map_note"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219498622142-0m8a8ni5ivipilkom9rq6l4qs7jj5d7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_vyZqRfCN4jg5C4kOOFY4XXklQGaBND4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219498622142-0m8a8ni5ivipilkom9rq6l4qs7jj5d7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

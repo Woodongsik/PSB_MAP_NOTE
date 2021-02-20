@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PSB_MAP_NOTE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="description_top_banner">Description_Top_Banner</string>
+    <string name="description_calendar_image">description_calendar_image</string>
+    <string name="description_date_time">Date/Time:</string>
+    <string name="description_memo_textView" />
+    <string name="description_input_title">Input Title</string>
+    <string name="description_input_memo1">Input Memo</string>
+    <string name="description_banner_image2">description_banner_image</string>
+    <string name="description_title_image">description_title_image</string>
+    <string name="description_title_input">Title</string>
+    <string name="description_ok_button">OK</string>
+    <string name="description_title_image6">description_title_image</string>
+    <string name="description_title_text">Title:</string>
+    <string name="description_memo_image3">description__memo_image3</string>
+    <string name="description_memo_input2">Memo:</string>
+    <string name="description_gps_image">description_gps_image</string>
+    <string name="description_gps_location2">GPS Location:</string>
+    <string name="description_edit_image">description_edit_image</string>
+    <string name="description_gps_image5">description_gps_image5</string>
+    <string name="description_gps_location_txt1">GPS Location:</string>
+    <string name="description_calendar_image2">description_calendar_image2</string>
+    <string name="description_date_time6">Date/Time:</string>
+    <string name="description_text_date_input" />
+    <string name="description_title_image3">description_title_image3</string>
+    <string name="description_title_input3">Title:</string>
+    <string name="description_input_title6">Input Title</string>
+    <string name="description_memo_image2">description_memo_image2</string>
+    <string name="description_memo_text">Memo:</string>
+    <string name="description_input_memo5">Input Memo</string>
+    <string name="description_image_ad_banner">description_image_ad_banner</string>
+    <string name="description_non_use_button">description_non_use_button</string>
+</resources>
